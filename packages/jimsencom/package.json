@@ -1,0 +1,28 @@
+{
+	"name": "jimsencom",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"module": "es/index.mjs",
+	"files": [
+		"es",
+		"lib"
+	],
+	"keywords": [
+		"jimsencom",
+		"vue3组件库"
+	],
+	"sideEffects": [
+		"**/*.css"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"release": "release-it"
+	},
+	"author": "xujusheng",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/qddidi/easyest"
+	}
+}
