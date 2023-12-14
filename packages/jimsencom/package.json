@@ -1,8 +1,8 @@
 {
 	"name": "jimsencom",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
-	"main": "index.js",
+	"main": "lib/index.js",
 	"module": "es/index.mjs",
 	"files": [
 		"es",
@@ -15,14 +15,15 @@
 	"sideEffects": [
 		"**/*.css"
 	],
+	"author": "xujusheng",
+	"license": "MIT",
+	"typings": "lib/index.d.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"release": "release-it"
 	},
-	"author": "xujusheng",
-	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/qddidi/easyest"
+		"url": "https://github.com/Stan-forever/JimSenCom"
 	}
 }
